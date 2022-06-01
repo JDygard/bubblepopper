@@ -1,0 +1,38 @@
+#game-canvas {
+    background-color: #282828;
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+    color: #3f0;
+    text-shadow: 1px 1px 1px #3f0;
+}
+
+/* @keyframes size-up {
+    from {
+        scale: 0;
+    }
+    to {
+        scale: 5;
+    }
+} */
+
+.bubble {
+    position: fixed;
+    scale: 3;
+    cursor: pointer;
+    /* animation: size-up 1.5s ease-out forwards; */
+}
+
+.countdown {
+    position: fixed;
+    color: red;
+}
+
+.scorecard {
+    display: flex;
+    flex-direction: column;
+}

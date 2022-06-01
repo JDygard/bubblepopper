@@ -1,0 +1,13 @@
+.header {
+  font-family: "Minecraftia-Regular";
+  src: local('Minecraftia-Regular'), url(./fonts/Minecraftia-Regular.ttf) format('truetype');
+  background-color: #282828;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #33FF00;
+  text-shadow: 1px 1px 4px #33FF00;
+}

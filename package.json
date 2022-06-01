@@ -1,0 +1,21 @@
+{
+  "name": "balloon-assignment",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "description": "A full stack assignment for web developers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm --prefix frontend/ run start & node index.js",
+    "install": "npm --prefix frontend/ install",
+    "start": "npm --prefix frontend/ run build && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-native": "^0.68.1",
+    "socket.io": "^4.4.1"
+  }
+}
